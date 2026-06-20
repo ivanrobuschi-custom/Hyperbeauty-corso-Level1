@@ -15,13 +15,13 @@
    */
 
   /* Header e Colore Primario — blu corporate HyperBeauty */
-  --md-primary-fg-color:        #C86A1E;
+  --md-primary-fg-color:        #1565C0;
   --md-primary-fg-color--light: #1976D2;
   --md-primary-fg-color--dark:  #0D47A1;
 
   /* Footer — Custom Dark Grey brand */
-  --md-footer-bg-color:         #C86A1E;
-  --md-footer-bottom-bg-color:  #2A2F33;
+  --md-footer-bg-color:         #252B3B;
+  --md-footer-bottom-bg-color:  #1A1F2B;
   --md-footer-fg-color:         #ffffff;
   --md-footer-bottom-fg-color:  #cccccc;
 }

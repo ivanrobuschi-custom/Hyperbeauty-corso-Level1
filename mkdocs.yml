@@ -26,7 +26,7 @@ theme:
     - search.share
 
   palette:
-    primary: blue
+    primary: custom
     accent: blue
 
 extra_css:
@@ -49,6 +49,7 @@ copyright: Copyright Custom S.p.A. 2026
 
 nav:
   - Introduzione: index.md
+  - Acquisto e attivazione: acquisto.md
   - Requisiti di Sistema: requisiti.md
   - Installazione e Setup: setup.md
   - Configurazione Iniziale: configurazione.md

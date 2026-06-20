@@ -5,7 +5,7 @@ title: Introduzione — Level 1 StartUp
 ![HyperBeauty](assets/images/hyperbeauty_blu_rgb.png)
 ![HyperBeauty](assets/images/HYperBeauty-News%20sito%20lancio%20prodotto.png)
 
-# Level 1 — StartUp e Operatività di base
+# **Level 1** — StartUp e Operatività di base
 
 L'obiettivo operativo del corso è fornire le necessarie e corrette informazioni e procedure per completare una rapida ed efficace installazione del sistema gestionale **HyperBeauty**.
 
