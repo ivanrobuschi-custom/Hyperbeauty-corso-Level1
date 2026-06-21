@@ -1,5 +1,27 @@
 ---
 title: Configurazione Iniziale
+tipologia: software
+nome: HyperBeauty
+produttore: Custom S.p.A.
+argomento: Configurazione iniziale sede, orari di lavoro, operatori e listino trattamenti
+autore: Robuschi Ivan
+documento_destinato_a: partner
+data_creazione: 2026-06-20
+revisione: "1.0"
+lingua: it
+livello_corso: level_1
+tipo_contenuto: guida-operativa
+sezione_ordine: 4
+prodotto_versione: "2026"
+tags:
+  - configurazione
+  - sede
+  - orari
+  - operatori
+  - listino
+  - trattamenti
+  - prodotti
+  - setup_iniziale
 ---
 
 # Configurazione Iniziale

@@ -1,5 +1,27 @@
 ---
 title: Introduzione — Level 1 StartUp
+tipologia: software
+nome: HyperBeauty
+produttore: Custom S.p.A.
+argomento: Introduzione al corso Level 1 StartUp — obiettivi, prerequisiti e panoramica del modulo
+autore: Robuschi Ivan
+documento_destinato_a: partner
+data_creazione: 2026-06-20
+revisione: "1.0"
+lingua: it
+livello_corso: level_1
+tipo_contenuto: introduzione
+sezione_ordine: 0
+prodotto_versione: "2026"
+tags:
+  - introduzione
+  - obiettivi
+  - corso
+  - level_1
+  - onboarding
+  - prerequisiti
+  - panoramica
+  - startup
 ---
 
 ![HyperBeauty](assets/images/hyperbeauty_blu_rgb.png)

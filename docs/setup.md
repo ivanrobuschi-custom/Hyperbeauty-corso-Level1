@@ -1,5 +1,27 @@
 ---
 title: Installazione e Setup
+tipologia: software
+nome: HyperBeauty
+produttore: Custom S.p.A.
+argomento: Installazione, primo accesso e orientamento nell'interfaccia HyperBeauty
+autore: Robuschi Ivan
+documento_destinato_a: partner
+data_creazione: 2026-06-20
+revisione: "1.0"
+lingua: it
+livello_corso: level_1
+tipo_contenuto: guida-operativa
+sezione_ordine: 3
+prodotto_versione: "2026"
+tags:
+  - installazione
+  - setup
+  - accesso
+  - login
+  - interfaccia
+  - password
+  - browser
+  - primo_accesso
 ---
 
 # Installazione e Setup

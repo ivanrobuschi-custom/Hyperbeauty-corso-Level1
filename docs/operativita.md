@@ -1,5 +1,29 @@
 ---
 title: Operatività Base
+tipologia: software
+nome: HyperBeauty
+produttore: Custom S.p.A.
+argomento: Operatività base — gestione agenda, appuntamenti, personalizzazione visiva e cassa
+autore: Robuschi Ivan
+documento_destinato_a: partner
+data_creazione: 2026-06-20
+revisione: "1.0"
+lingua: it
+livello_corso: level_1
+tipo_contenuto: guida-operativa
+sezione_ordine: 5
+prodotto_versione: "2026"
+tags:
+  - agenda
+  - appuntamenti
+  - cassa
+  - colori
+  - tema
+  - operatività
+  - scheduling
+  - trattamenti
+  - carrello
+  - personalizzazione
 ---
 
 # Operatività Base

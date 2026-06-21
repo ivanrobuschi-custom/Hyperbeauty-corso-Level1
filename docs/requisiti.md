@@ -1,5 +1,28 @@
 ---
 title: Requisiti di Sistema
+tipologia: software
+nome: HyperBeauty
+produttore: Custom S.p.A.
+argomento: Requisiti hardware e software per l'installazione e il corretto funzionamento di HyperBeauty
+autore: Robuschi Ivan
+documento_destinato_a: partner
+data_creazione: 2026-06-20
+revisione: "1.0"
+lingua: it
+livello_corso: level_1
+tipo_contenuto: riferimento
+sezione_ordine: 2
+prodotto_versione: "2026"
+tags:
+  - requisiti
+  - hardware
+  - software
+  - browser
+  - sistema_operativo
+  - stampante_fiscale
+  - rete
+  - installazione
+  - compatibilità
 ---
 
 # Requisiti di Sistema

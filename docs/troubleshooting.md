@@ -1,5 +1,27 @@
 ---
 title: Troubleshooting Livello 1
+tipologia: software
+nome: HyperBeauty
+produttore: Custom S.p.A.
+argomento: Risoluzione dei problemi comuni in fase di installazione e primo utilizzo di HyperBeauty
+autore: Robuschi Ivan
+documento_destinato_a: partner
+data_creazione: 2026-06-20
+revisione: "1.0"
+lingua: it
+livello_corso: level_1
+tipo_contenuto: troubleshooting
+sezione_ordine: 6
+prodotto_versione: "2026"
+tags:
+  - troubleshooting
+  - errori
+  - problemi
+  - supporto
+  - risoluzione
+  - assistenza
+  - ticket
+  - debug
 ---
 
 # Troubleshooting Livello 1
