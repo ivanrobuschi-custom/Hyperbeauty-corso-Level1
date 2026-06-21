@@ -13,7 +13,7 @@ livello_corso: level_1
 tipo_contenuto: guida-operativa
 sezione_ordine: 4
 prodotto_versione: "2026"
-tags:
+keywords:
   - configurazione
   - sede
   - orari
