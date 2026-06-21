@@ -50,8 +50,8 @@ copyright: Copyright Custom S.p.A. 2026
 nav:
   - Introduzione: index.md
   - Acquisto e attivazione: acquisto.md
-  - Requisiti di Sistema: requisiti.md
-  - Installazione e Setup: setup.md
+#  - Requisiti di Sistema: requisiti.md
+  - Interfaccia: interfaccia.md
   - Configurazione Iniziale: configurazione.md
   - Operatività Base: operativita.md
   - Troubleshooting Livello 1: troubleshooting.md

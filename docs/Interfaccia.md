@@ -57,36 +57,4 @@ Al primo accesso è utile familiarizzare con la mappa dell'interfaccia:
 
 ---
 
-## 1.2 — Gestione password e sicurezza account
 
-### Cambio password al primo accesso
-
-Al primo accesso, o ogni volta che si riceve una password temporanea da Custom S.p.a., è obbligatorio impostare una password personale.
-
-**Percorso:** Icona profilo in alto a destra → **Impostazioni account** → **Cambio password**
-
-**Procedura:**
-
-1. Inserire la password attuale nel campo apposito
-2. Inserire la nuova password (minimo 8 caratteri — si consiglia lettere, numeri e un carattere speciale)
-3. Confermare la nuova password nel campo di verifica
-4. Cliccare su **Salva**
-
-### Reset password dimenticata
-
-Se non si ricorda la password di accesso:
-
-1. Nella schermata di login, cliccare su **Password dimenticata**
-2. Inserire l'indirizzo email associato all'account
-3. Controllare la casella email: arriverà un link per il reset entro pochi minuti
-4. Cliccare sul link e impostare la nuova password
-
-> 💡 **Buona pratica di sicurezza:** Non condividere mai le credenziali personali con altri operatori. HyperBeauty consente la creazione di accessi separati per ogni operatore e per il titolare — ogni persona deve avere le proprie credenziali.
-
----
-
-## Video guida di riferimento
-
-| Argomento | Video |
-|-----------|-------|
-| Cambio password e protezione account | `62-Hyperbeauty_cambio_password_e_protezione_account.mp4` |
