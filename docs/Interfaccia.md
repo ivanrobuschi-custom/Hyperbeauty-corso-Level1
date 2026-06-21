@@ -29,14 +29,6 @@ keywords:
 
 Prima di toccare qualsiasi impostazione, questo modulo guida il dealer in un tour dell'interfaccia HyperBeauty per acquisire subito familiarità con la struttura del gestionale.
 
----
-
-<video controls width="100%" style="border-radius:8px; margin-bottom:1.5rem;">
-  <source src="../assets/resources/interfaccia.mp4" type="video/mp4">
-</video>
-
----
-
 ## La schermata principale — Planning
 
 All'accesso, HyperBeauty apre direttamente la vista **Planning**, il cuore operativo del gestionale. Da qui si gestisce l'intera agenda del centro.

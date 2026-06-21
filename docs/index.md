@@ -13,7 +13,7 @@ livello_corso: level_1
 tipo_contenuto: introduzione
 sezione_ordine: 0
 prodotto_versione: "2026"
-tags:
+keywords:
   - introduzione
   - obiettivi
   - corso
