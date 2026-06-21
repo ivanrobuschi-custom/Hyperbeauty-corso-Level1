@@ -29,6 +29,15 @@ keywords:
 
 Prima di toccare qualsiasi impostazione, questo modulo guida il dealer in un tour dell'interfaccia HyperBeauty per acquisire subito familiarità con la struttura del gestionale.
 
+---
+
+<video controls width="100%" style="border-radius:8px; margin-bottom:1.5rem;">
+  <source src="../assets/resources/interfaccia.mp4" type="video/mp4">
+</video>
+
+---
+
+
 ## La schermata principale — Planning
 
 All'accesso, HyperBeauty apre direttamente la vista **Planning**, il cuore operativo del gestionale. Da qui si gestisce l'intera agenda del centro.
@@ -84,9 +93,10 @@ La barra superiore è presente in tutte le sezioni del gestionale e contiene gli
 - **Data corrente** — mostra il periodo visualizzato; cliccabile per saltare a una data specifica
 - **"Oggi"** — riporta immediatamente alla settimana corrente
 - **Icona ingranaggio** ⚙️ — opzioni Planning (tema, scala temporale, ordine operatori)
-- **Icona notifiche** 🔔 — avvisi di sistema e promemoria
-- **Icona guida** 🎬 — apre il pannello della Guida Video Integrata
-- **Pulsante "Ciao [nome]"** 👤 — menu account (dati personali, cambio password, selezione sede)
+- **Icona notifiche** 🔔 — avvisi di sistema e riepilog appuntamenti della giornata
+- **Icona database**  — cliccando sull'icona visualizza i contatori sms ed i messaggi whatsapp rimanenti se attivati con apposito modulo
+![](assets/images/interfaccia/step_13.png)
+- **Pulsante "Ciao [nome]"** 👤 — menu account (dati personali, cambio password, selezione sede,recupero password)
 
 ---
 
