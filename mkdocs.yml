@@ -50,9 +50,9 @@ copyright: Copyright Custom S.p.A. 2026
 nav:
   - Introduzione: index.md
   - Acquisto e attivazione: acquisto.md
-  - Interfaccia: interfaccia.md
-  - Azienda e Sede: azienda_sedi.md
-  - Configurazione Iniziale: configurazione.md
-  - Operatività Base: operativita.md
-  - Troubleshooting Livello 1: troubleshooting.md
-  - Materiali e Risorse: risorse.md
+  - Configurazione iniziale:
+    - Configurazione: configurazione.md
+    - Interfaccia: interfaccia.md
+    - Azienda e Sede: azienda_sedi.md
+    - Operatori: operatori.md
+    - Orario sede e turni: 52_configurare_turni_e_orari.md

@@ -119,7 +119,7 @@ Cliccando su un appuntamento in agenda si apre il pannello del cliente con le ic
 | **Salvadanaio** 🐷 | Rosso / Giallo / Verde | **Indicatore economico** — valore del cliente nel tempo |
 
 !!! success "Il momento 'wow'"
-    Mostrare queste icone su un cliente demo con sospeso aperto è il momento di maggiore impatto del corso. Il dealer capisce immediatamente il valore operativo: **in qualsiasi punto del gestionale** (agenda, cassa, anagrafica) viene sempre avvisato della situazione del cliente prima di iniziare il servizio.
+    Mostrare queste icone su un cliente demo con sospeso aperto è il momento di maggiore impatto del corso. Il cliente finale gestore del negozio capisce immediatamente il valore operativo: **in qualsiasi punto del gestionale** (agenda, cassa, anagrafica) viene sempre avvisato della situazione del cliente prima di iniziare il servizio.
 
 !!! info "Icone visibili ovunque"
     Le icone compaiono sia in **Planning** che in **Cassa** — il centro è sempre informato, indipendentemente da dove opera nel gestionale.
@@ -149,7 +149,7 @@ In alto a destra, il pulsante **"Ciao [nome utente]"** apre il menu personale de
 
 HyperBeauty include una libreria di **68 video-guide** sempre accessibile durante l'utilizzo, senza mai abbandonare il gestionale.
 
-**Come accedervi:** icona 🎬 nella barra superiore, oppure **Supporto** nel menu laterale.
+**Come accedervi:** icona di Youtube nella barra superiore.
 
 ![Guida Video Integrata — pannello](assets/images/interfaccia/step_11.png)
 
