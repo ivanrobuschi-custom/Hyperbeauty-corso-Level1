@@ -87,7 +87,7 @@ Cliccare su **ACQUISTA** sotto il piano desiderato. Si apre il carrello con il r
 ![Carrello acquisto licenza](assets/images/acquisto/step_04.png)
 
 !!! warning "Attenzione — fatturazione"
-    L'acquisto genera una fattura intestata all'account rivenditore. Verificare i dati di fatturazione prima di confermare.
+    L'acquisto non genera immediatamente una conferma d'ordine, come per tutti gli altri acquisti dal portale. La conferma d'ordine e la successiva fatturazione avverranno all'atto dell'**attivazione del token** nello spazio HyperBeauty del cliente finale.
 
 ---
 
@@ -102,6 +102,9 @@ Dopo la conferma dell'ordine, tornare alla pagina **Licenze → HYPERBEAUTY**. I
 ## Fase 2 — Recupero del Token di attivazione
 
 Ogni licenza acquistata e non ancora attivata ha uno stato **NON ATTIVO** e un **token temporaneo** da usare per la registrazione su HyperBeauty.
+
+!!! warning "Attenzione — Validità Token di attivazione = **30 giorni**"
+    Dal momento della generazione del Token di attivazione, tramite la procedura precedente di acquisto dal portale Custom4U.it, si ha tempo **30 GIORNI** per procedere all'attivazione di tale Token nello spazio cloud di **HyperBeauty** del cliente**
 
 ### Passo 6 — Aprire le Licenze Assegnate
 
@@ -129,9 +132,6 @@ Cliccare sulla freccia `>` in corrispondenza della licenza con stato **NON ATTIV
 ![Dettaglio licenza — Token di attivazione](assets/images/acquisto/step_08.png)
 
 Selezionare il token e copiarlo negli appunti (`Ctrl+C` / `Cmd+C`). Il token è una stringa alfanumerica univoca, ad esempio:
-```
-cIInUTBUL2NTQXBtNTdyOVU2Qzg5dz09
-```
 
 ---
 
@@ -158,7 +158,7 @@ Nella schermata di benvenuto, compilare tutti i campi richiesti:
 3. **Numero di telefono** — con prefisso internazionale
 4. **Indirizzo email** — sarà l'email di accesso all'account
 
-Spuntare le caselle di **Informativa Privacy** e **Termini e Condizioni**, quindi cliccare su **INIZIA LA**.
+Spuntare le caselle di **Informativa Privacy** e **Termini e Condizioni**, quindi cliccare su **INIZIA ORA**.
 
 !!! info "Dove inserire il Token?"
     Dopo aver cliccato **INIZIA LA**, il sistema richiederà il token di attivazione ricevuto al Passo 7. Incollarlo nel campo dedicato (`Ctrl+V` / `Cmd+V`) e confermare.
@@ -180,6 +180,170 @@ Spuntare le caselle di **Informativa Privacy** e **Termini e Condizioni**, quind
 
 !!! success "Attivazione completata"
     Al termine della registrazione, HyperBeauty crea il profilo del centro e reindirizza direttamente all'interfaccia principale. La licenza nella tabella del portale Custom4U passerà dallo stato **NON ATTIVO** ad **ATTIVO** con la data di attivazione e di scadenza aggiornate.
+
+---
+
+# Cambio password e protezione account
+
+> **Percorso rapido:** Pulsante **Ciao** (in alto a destra) → **Cambia Password** → compilare i campi → **Cambia Password**
+
+---
+
+## Cosa impari in questo video
+
+Questo tutorial mostra due funzioni di sicurezza dell'account HyperBeauty:
+
+1. **Cambiare la password** — come impostare una nuova password dal pannello utente
+2. **Distruggi Sessioni** — come invalidare immediatamente tutti gli accessi attivi su altri dispositivi (es. se si sospetta un accesso non autorizzato o si è dimenticato il logout su un computer condiviso)
+
+---
+
+<video controls width="100%">
+  <source src="../assets/resources/62-Hyperbeauty_cambio_password_e_protezione_account.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.
+</video>
+
+---
+
+## Panoramica del menu utente
+
+Il menu utente in HyperBeauty si trova nel pulsante **"Ciao"** in alto a destra nell'interfaccia. Cliccandoci si apre un dropdown con tutte le opzioni legate all'account personale.
+
+![Dashboard HyperBeauty con agenda giornaliera — tema chiaro](screenshots/62/screenshot_6s.jpg)
+*Interfaccia HyperBeauty — tema chiaro. Il pulsante "Ciao" è visibile in alto a destra, accanto al nome della sede (Hair & Beauty / Beauty & Hair - Roma).*
+
+---
+
+## Parte 1 — Cambiare la password
+
+### Passo 1 — Aprire il menu utente
+
+Cliccare sul pulsante **"Ciao"** in alto a destra nella barra superiore.
+
+![Menu dropdown utente aperto con tutte le opzioni](screenshots/62/screenshot_22s.jpg)
+*Il dropdown utente mostra le seguenti voci: **Profilo**, **Opzioni Personali**, **Distruggi Sessioni**, **Cambia Password**, **Elimina Profilo**, la versione dell'applicazione (es. 2.62.12.1), e il pulsante **LOGOUT**.*
+
+**Contenuto del menu utente:**
+
+| Voce | Funzione |
+|------|----------|
+| Profilo | Visualizza e modifica i dati del profilo utente |
+| Opzioni Personali | Impostazioni personalizzate dell'utente |
+| Distruggi Sessioni | Invalida tutti gli accessi attivi su altri dispositivi |
+| **Cambia Password** | ← Apre la finestra per cambiare la password |
+| Elimina Profilo | Elimina definitivamente il profilo utente |
+| LOGOUT | Disconnette dalla sessione corrente |
+
+**Azione:** Cliccare su **Cambia Password**.
+
+---
+
+### Passo 2 — Compilare la finestra "Cambia Password"
+
+Si apre la finestra modale **CAMBIA PASSWORD** con due campi:
+
+![Modale Cambia Password con campi vuoti](screenshots/62/screenshot_26s.jpg)
+*La finestra "CAMBIA PASSWORD" contiene: il campo **Nuova Password**, il campo **Conferma nuova password**, e i pulsanti **Chiudi** (grigio) e **Cambia Password** (verde). L'icona 🔲 a destra di ogni campo permette di mostrare/nascondere i caratteri digitati.*
+
+**Procedura:**
+
+1. Nel campo **Nuova Password** → digitare la nuova password scelta
+2. Nel campo **Conferma nuova password** → digitare nuovamente la stessa password
+
+> 💡 **Consiglio:** Cliccare sull'icona 🔲 a destra del campo per visualizzare i caratteri in chiaro e verificare che non ci siano errori di digitazione prima di confermare.
+
+---
+
+### Passo 3 — Compilare entrambi i campi
+
+![Modale in compilazione con Nuova Password inserita e Conferma in corso](screenshots/62/screenshot_31s.jpg)
+*Il campo "Nuova Password" è compilato (caratteri mascherati con pallini). Il campo "Conferma nuova password" è in corso di compilazione.*
+
+![Modale con entrambi i campi compilati, pulsante Chiudi visibile](screenshots/62/screenshot_36s.jpg)
+*Entrambi i campi sono compilati. Il pulsante **Chiudi** (grigio) annulla l'operazione senza salvare. Il pulsante **Cambia Password** (verde) conferma e applica la nuova password.*
+
+---
+
+### Passo 4 — Confermare il cambio password
+
+Cliccare su **Cambia Password** (pulsante verde).
+
+La finestra si chiude e la nuova password è immediatamente attiva. Il prossimo accesso dovrà avvenire con la nuova password.
+
+> ⚠️ **Attenzione:** Se i due campi non coincidono, il sistema mostra un errore e non salva. Verificare che "Nuova Password" e "Conferma nuova password" siano identici.
+
+> 📌 **Nota — pulsante Chiudi:** Cliccare **Chiudi** annulla tutta l'operazione senza modificare la password corrente.
+
+![Dashboard dopo il cambio password — modale chiusa](screenshots/62/screenshot_38s.jpg)
+*Dopo la conferma, la modale si chiude e si torna alla dashboard. La nuova password è attiva.*
+
+---
+
+## Parte 2 — Distruggi Sessioni (protezione account)
+
+### Cos'è "Distruggi Sessioni"
+
+La funzione **Distruggi Sessioni** invalida immediatamente tutte le sessioni attive dell'account su tutti i dispositivi, ad eccezione di quella corrente. È utile in questi scenari:
+
+- Si è effettuato l'accesso su un computer condiviso o pubblico e si è dimenticato il logout
+- Si sospetta che qualcuno abbia accesso non autorizzato all'account
+- Si è cambiata la password e si vuole essere sicuri che vecchie sessioni ancora aperte vengano chiuse
+- Si lavora con più browser/dispositivi e si vuole forzare il re-login ovunque
+
+### Come usare Distruggi Sessioni
+
+**Percorso:** Pulsante **Ciao** → **Distruggi Sessioni**
+
+![Menu dropdown con cursore su Distruggi Sessioni](screenshots/62/screenshot_42s.jpg)
+*Il menu utente è aperto. La voce **Distruggi Sessioni** è la terza dall'alto, evidenziata con un'icona blu.*
+
+![Menu dropdown con Distruggi Sessioni in evidenza](screenshots/62/screenshot_47s.jpg)
+*Zoom sul menu: "Distruggi Sessioni" è selezionabile con un clic. Questa azione è immediata e non richiede conferma aggiuntiva.*
+
+**Effetto:** Cliccando su **Distruggi Sessioni**, tutti gli altri dispositivi/browser su cui è aperta una sessione HyperBeauty con questo account vengono disconnessi istantaneamente. La sessione corrente rimane attiva.
+
+> ⚠️ **Attenzione:** L'operazione è istantanea e non è reversibile. Chiunque stia lavorando sullo stesso account da un altro dispositivo verrà disconnesso immediatamente.
+
+---
+
+## Panoramica completa del menu "Ciao"
+
+Riepiloga le funzioni disponibili nel menu utente per future consultazioni:
+
+| Voce | Uso tipico | Frequenza d'uso |
+|------|-----------|----------------|
+| **Profilo** | Aggiornare nome, email, foto | Raramente |
+| **Opzioni Personali** | Preferenze di visualizzazione personali | Raramente |
+| **Distruggi Sessioni** | Sicurezza — logout forzato tutti i dispositivi | Quando necessario |
+| **Cambia Password** | Aggiornare periodicamente la password | Periodicamente |
+| **Elimina Profilo** | Rimozione definitiva dell'utente | Mai in uso normale |
+| **LOGOUT** | Disconnessione dalla sessione corrente | A fine sessione |
+
+---
+
+## Riepilogo — Checklist operativa
+
+**Cambio password:**
+- [ ] Cliccare su **Ciao** in alto a destra
+- [ ] Cliccare su **Cambia Password**
+- [ ] Inserire la nuova password in **Nuova Password**
+- [ ] Ripetere la password in **Conferma nuova password**
+- [ ] Cliccare **Cambia Password** (pulsante verde)
+
+**Distruggi Sessioni:**
+- [ ] Cliccare su **Ciao** in alto a destra
+- [ ] Cliccare su **Distruggi Sessioni**
+- [ ] Tutti gli altri accessi attivi vengono chiusi immediatamente
+
+---
+
+## Buone pratiche di sicurezza account
+
+- Cambiare la password al primo accesso e ogni volta che si riceve una password temporanea da Custom S.p.a.
+- Non condividere le credenziali personali con altri operatori — ogni utente deve avere il proprio accesso
+- Usare una password con almeno 8 caratteri, includendo lettere, numeri e un carattere speciale
+- Al termine del lavoro su un computer condiviso, effettuare sempre il **LOGOUT**
+- In caso di dubbio su accessi non autorizzati, usare immediatamente **Distruggi Sessioni** e poi cambiare la password
 
 ---
 
