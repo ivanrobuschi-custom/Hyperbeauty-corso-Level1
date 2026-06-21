@@ -115,15 +115,6 @@ Il campo **Max uso contemp.** è il parametro più importante della configurazio
 
 ---
 
-## Risorse e operatori
-
-Le risorse sono indipendenti dagli operatori, ma la loro disponibilità è influenzata dagli operatori che le utilizzano. Se un operatore assegnato a una cabina è assente, quella combinazione non è prenotabile — anche se la cabina fisicamente è libera.
-
-!!! warning "Completare la configurazione prima degli appuntamenti"
-    Una risorsa configurata in modo errato può generare doppie prenotazioni sullo stesso spazio fisico. Completare sempre la configurazione risorse prima di inserire appuntamenti reali nel gestionale.
-
----
-
 ## Limite di piano
 
 !!! warning "Tutti i piani HyperBeauty: massimo 6 operatori + 6 risorse"
