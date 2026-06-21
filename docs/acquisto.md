@@ -13,7 +13,7 @@ livello_corso: level_1
 tipo_contenuto: guida-operativa
 sezione_ordine: 1
 prodotto_versione: "2026"
-tags:
+keywords:
   - licenza
   - acquisto
   - attivazione
@@ -33,8 +33,9 @@ Questa sezione guida il tecnico installatore attraverso le due fasi preliminari 
 
 ---
 
-<video controls width="100%" style="border-radius:8px; margin-bottom:1.5rem;">
-  <source src="assets/resources/acquisto_e_attivazione_licenza.mp4" type="video/mp4">
+<video controls width="100%">
+  <source src="../assets/resources/acquisto_e_attivazione_licenza.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.
 </video>
 
 ---
