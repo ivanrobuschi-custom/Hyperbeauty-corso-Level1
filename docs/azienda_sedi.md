@@ -131,7 +131,7 @@ La scheda **Sede** nel menu laterale espone anche tutte le impostazioni avanzate
 
 **Percorso:** Configurazione → **Sede** → **Orari Sede** → tab **Orario di lavoro**
 
-![Orari Sede — griglia settimanale](assets/images//azienda_sedi/step_08.png)
+![Orari Sede — griglia settimanale](assets/images/azienda_sedi/step_08.png)
 
 Per ogni giorno della settimana: spuntare la casella per abilitarlo, poi inserire l'orario di **Apertura** e **Chiusura**.
 
