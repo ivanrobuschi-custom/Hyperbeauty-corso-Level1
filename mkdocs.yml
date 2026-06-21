@@ -53,6 +53,10 @@ nav:
   - Configurazione iniziale:
     - Configurazione: configurazione.md
     - Interfaccia: interfaccia.md
+    - Modifica tema grafico: 14_modifica_tema_grafico.md
     - Azienda e Sede: azienda_sedi.md
-    - Operatori: operatori.md
     - Orario sede e turni: 52_configurare_turni_e_orarilavoro.md
+  - Anagrafiche:
+    - Operatori: operatori.md
+    - Risorse: gestione_risorse.md
+    

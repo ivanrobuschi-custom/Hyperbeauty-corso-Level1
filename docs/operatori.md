@@ -146,10 +146,10 @@ HyperBeauty supporta due modalità di colorazione degli appuntamenti, configurab
 
 ---
 
-## Limite di piano — Essential
+## Aggiungere Moduli 3 o 6 operatori/risorse
 
-!!! warning "Piano Essential: massimo 6 operatori + 6 risorse"
-    Il piano **Essential** include fino a **6 operatori** e **6 risorse**. Se il salone ne ha di più, attivare il modulo opzionale **"Operatori/Risorse aggiuntive"** acquistabile dallo **Shop** nel menu laterale.
+!!! warning "Tutti i piani HyperBeauty: massimo 6 operatori + 6 risorse"
+    **Tutti i piani HyperBeauty** includono fino a **6 operatori** e **6 risorse**. Se il salone ne ha di più, attivare il modulo opzionale **"3 o 6 Operatori/Risorse aggiuntive"** acquistabili da **Custom4U**.
 
     Verificare sempre il numero di operatori attivi del salone prima dell'installazione per evitare problemi in fase di configurazione.
 
