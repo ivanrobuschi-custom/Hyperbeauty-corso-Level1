@@ -1,5 +1,5 @@
 ---
-title: Orientamento nell'Interfaccia
+title: Orientamento nella Interfaccia
 tipologia: software
 nome: HyperBeauty
 produttore: Custom S.p.A.
