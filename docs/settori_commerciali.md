@@ -25,7 +25,7 @@ keywords:
   - categorie
 ---
 
-# Settori Commerciali e Catalogo Trattamenti
+# Catalogo Trattamenti
 
 Prima di creare il listino trattamenti, è necessario configurare i **Settori Commerciali** della sede. Questa operazione abilita un catalogo predefinito di servizi e categorie che velocizza enormemente la creazione del listino — evitando di dover inserire tutto da zero.
 
