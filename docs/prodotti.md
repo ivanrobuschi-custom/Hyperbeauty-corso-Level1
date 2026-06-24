@@ -81,7 +81,7 @@ Il pannello **NUOVO PRODOTTO** si apre come finestra modale. I campi sono organi
 | **Descrizione** | Nome del prodotto come appare in cassa e in listino |
 | **Codice Interno** | Codice alfanumerico personalizzabile (es. SKU, codice fornitore) |
 | **Barcode** | Codice EAN/UPC — lasciare vuoto se non si usa scanner |
-| **Categoria** | Categoria di appartenenza per organizzare il listino (es. Capelli, Viso, Corpo) |
+| **Catalogo** | Catalogo di appartenenza per organizzare il listino (determinato dai settori commerciali scelti in fase di configurazione sede) |
 | **Gruppo** | Sottogruppo per classificazione più granulare e per i report |
 
 ### Sezione Prezzi
@@ -105,20 +105,10 @@ Cliccare **SALVA** per confermare. Il prodotto appare immediatamente nel listino
 
 ---
 
-## Organizzare il listino con le categorie
-
-Creare le categorie prima di inserire i prodotti rende il listino navigabile sia in cassa che nei report. Categorie consigliate per un centro estetico:
-
-| Categoria | Esempi di prodotti |
-|-----------|--------------------|
-| **Capelli** | Shampoo, balsami, maschere, lacche, oli |
-| **Viso** | Creme, sieri, contorno occhi, detergenti |
-| **Corpo** | Creme corpo, oli massaggio, prodotti depilatori |
-| **Unghie** | Smalti, gel, top coat, basi |
-| **Profumi / Fragranze** | Eau de parfum, eau de toilette, deodoranti |
-
 !!! tip "Pochi prodotti per iniziare"
     Non è necessario inserire l'intero catalogo dal primo giorno. Caricare prima i prodotti più venduti — shampoo, trattamenti di punta, best seller — e completare in seguito. La gestione magazzino completa (carichi, giacenze, inventario) è approfondita nel Webinar 2.
+    E' possibile effettuare un import massivo di prodotti tramite icona ingranaggio in alto a destra, tramite file .csv.
+    E' possibile, inoltre, sempre dal menu ingranaggio scaricare un modello Prodotti csv, in modo tale d'avere una base corretta per importare i prodotti.
 
 ---
 
