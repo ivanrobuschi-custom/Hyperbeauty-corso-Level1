@@ -64,4 +64,6 @@ nav:
     - Trattamenti vista semplificata: trattamenti_vista_semplice.md
     - Prodotti: prodotti.md
     - Clienti: clienti.md
+  - Connessione RT:
+    - Encoder Matricola RT: matricola_encoder.md
    
