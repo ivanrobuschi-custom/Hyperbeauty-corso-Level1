@@ -64,9 +64,9 @@ nav:
     - Trattamenti vista semplificata: trattamenti_vista_semplice.md
     - Prodotti: prodotti.md
     - Clienti: clienti.md
-  - Appuntamenti:
-    - Presa Appuntamento: presa_appuntamento.md
   - Connessione RT:
     - Collegamento RT Custom: stampante_rt.md
     - Encoder Matricola RT: matricola_encoder.md
+  - Appuntamenti:
+    - Presa Appuntamento: presa_appuntamento.md
    
