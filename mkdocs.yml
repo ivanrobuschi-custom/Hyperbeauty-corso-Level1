@@ -74,4 +74,6 @@ nav:
     - Copia, Incolla e Sposta Appuntamenti: copia_incolla_sposta_app.md
     - Appuntamenti Ricorrenti: progr_app.md
     - Ricerca Disponibilità: ricerca_disp.md
+  - Scontrino:
+    - Emissione Primo doc commerciale: primodoc_comm.md
    
