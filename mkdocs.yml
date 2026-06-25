@@ -65,5 +65,6 @@ nav:
     - Prodotti: prodotti.md
     - Clienti: clienti.md
   - Connessione RT:
+    - Collegamento RT Custom: stampante_rt.md
     - Encoder Matricola RT: matricola_encoder.md
    

@@ -30,7 +30,7 @@ Durante la configurazione del collegamento tra HyperBeauty e il Registratore Tel
 Il tool qui sotto automatizza questo passaggio: inserisci la matricola (11 caratteri, es. `96IP3123456`), ottieni immediatamente la stringa pronta da incollare nel gestionale.
 
 !!! info "Quando si usa"
-    Solo in fase di collegamento iniziale dell'RT (Impostazioni → Sede → Stampanti). Non è necessario ripetere l'operazione dopo la prima configurazione.
+    Solo in fase di collegamento iniziale dell'RT (Anagrafiche → Stampanti). Non è necessario ripetere l'operazione dopo la prima configurazione.
 
 ---
 
