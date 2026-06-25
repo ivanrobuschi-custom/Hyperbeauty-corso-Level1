@@ -1,0 +1,1534 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Corso di primo livello di configurazione base per HyperBeauty — Custom S.p.A.">
+      
+      
+        <meta name="author" content="Ivan Robuschi">
+      
+      
+        <link rel="canonical" href="https://ivanrobuschi-custom.github.io/Hyperbeauty-corso-Level1/copia_incolla_sposta_app/">
+      
+      
+        <link rel="prev" href="../colorazione_app/">
+      
+      
+        <link rel="next" href="../progr_app/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Copia, Incolla e Sposta Appuntamenti in Agenda - HyperBeauty Level 1 - StartUp</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#copia-incolla-e-sposta-appuntamenti-in-agenda" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href=".." title="HyperBeauty Level 1 - StartUp" class="md-header__button md-logo" aria-label="HyperBeauty Level 1 - StartUp" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HyperBeauty Level 1 - StartUp
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Copia, Incolla e Sposta Appuntamenti in Agenda
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Condividi" aria-label="Condividi" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduzione
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../acquisto/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Acquisto e attivazione
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../configurazione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Configurazione iniziale
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../operatori/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Anagrafiche
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../stampante_rt/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Connessione RT
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../presa_appuntamento/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Appuntamenti
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../primodoc_comm/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Scontrino
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../chiusura/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Chiusura Giornaliera
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="HyperBeauty Level 1 - StartUp" class="md-nav__button md-logo" aria-label="HyperBeauty Level 1 - StartUp" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    HyperBeauty Level 1 - StartUp
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acquisto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acquisto e attivazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../configurazione/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurazione iniziale
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../operatori/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anagrafiche
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../stampante_rt/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connessione RT
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appuntamenti
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appuntamenti
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presa_appuntamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presa Appuntamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visualizza_app_chiusi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appuntamenti Chiusi in Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colorazione_app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colorazione Appuntamenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copia, Incolla e Sposta Appuntamenti
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copia, Incolla e Sposta Appuntamenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stato-iniziale-del-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stato iniziale del Planning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copiare-un-appuntamento-nella-clipboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copiare un appuntamento nella Clipboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incollare-lappuntamento-in-una-nuova-posizione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incollare l'appuntamento in una nuova posizione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risultato-dellincolla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risultato dell'incolla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestire-la-clipboard-appuntamenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestire la Clipboard Appuntamenti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clipboard-con-piu-appuntamenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clipboard con più appuntamenti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riepilogo-operazioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riepilogo operazioni
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../progr_app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appuntamenti Ricorrenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ricerca_disp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ricerca Disponibilità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../primodoc_comm/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scontrino
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../chiusura/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chiusura Giornaliera
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stato-iniziale-del-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stato iniziale del Planning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copiare-un-appuntamento-nella-clipboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copiare un appuntamento nella Clipboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incollare-lappuntamento-in-una-nuova-posizione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incollare l'appuntamento in una nuova posizione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risultato-dellincolla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risultato dell'incolla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestire-la-clipboard-appuntamenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestire la Clipboard Appuntamenti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clipboard-con-piu-appuntamenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clipboard con più appuntamenti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riepilogo-operazioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riepilogo operazioni
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigazione" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Introduzione
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../presa_appuntamento/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Appuntamenti
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="copia-incolla-e-sposta-appuntamenti-in-agenda">Copia, Incolla e Sposta Appuntamenti in Agenda</h1>
+<p>HyperBeauty consente di copiare e spostare appuntamenti nel Planning senza doverli cancellare e ricreare. Il sistema usa una <strong>Clipboard Appuntamenti</strong> che può contenere più appuntamenti contemporaneamente, permettendo di incollarli in qualsiasi data, orario o colonna operatore.</p>
+<hr />
+<video controls width="100%" style="border-radius:8px; margin-bottom:1.5rem;">
+  <source src="../assets/resources/35_copia_incolla_sposta_appuntamenti_in_agenda.mp4" type="video/mp4">
+</video>
+
+<hr />
+<h2 id="stato-iniziale-del-planning">Stato iniziale del Planning</h2>
+<p><img alt="Planning con appuntamenti da copiare o spostare" src="../assets/images/copia_incolla_sposta_app/step_01.png" /></p>
+<p>Il Planning mostra gli appuntamenti nelle rispettive colonne operatore. Per copiare o spostare un appuntamento, agire direttamente sul blocco in agenda.</p>
+<hr />
+<h2 id="copiare-un-appuntamento-nella-clipboard">Copiare un appuntamento nella Clipboard</h2>
+<p>Per copiare un appuntamento: fare <strong>clic destro</strong> sul blocco appuntamento in agenda e selezionare l'azione di copia (oppure usare l'azione specifica dalla finestra dettaglio appuntamento).</p>
+<p><img alt="Toast di conferma — Appuntamento aggiunto nella Clipboard" src="../assets/images/copia_incolla_sposta_app/step_02.png" /></p>
+<p>Il sistema conferma l'operazione con un toast verde in basso:</p>
+<blockquote>
+<p>✅ <em>"Appuntamento aggiunto nella Clipboard"</em></p>
+</blockquote>
+<p>L'appuntamento originale rimane in agenda — è stato copiato, non spostato.</p>
+<hr />
+<h2 id="incollare-lappuntamento-in-una-nuova-posizione">Incollare l'appuntamento in una nuova posizione</h2>
+<p>Cliccare sulla fascia oraria di destinazione nella colonna dell'operatore desiderato. Il gestionale incolla l'appuntamento nella nuova posizione e mostra una finestra di dialogo:</p>
+<p><img alt="Dialog Clipboard — eliminare dalla Clipboard?" src="../assets/images/copia_incolla_sposta_app/step_03.png" /></p>
+<blockquote>
+<p><strong>Clipboard</strong>
+Appuntamento COPIATO!
+Eliminarlo dalla Clipboard?</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Risposta</th>
+<th>Effetto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SÌ</strong></td>
+<td>L'appuntamento viene rimosso dalla clipboard dopo l'incolla (comportamento "taglia e incolla")</td>
+</tr>
+<tr>
+<td><strong>NO</strong></td>
+<td>L'appuntamento rimane in clipboard — può essere incollato di nuovo in altri slot o date</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="risultato-dellincolla">Risultato dell'incolla</h2>
+<p><img alt="Planning dopo l'incolla — nuovo blocco in posizione destinazione" src="../assets/images/copia_incolla_sposta_app/step_04.png" /></p>
+<p>Il blocco appuntamento appare nella nuova posizione (colonna e orario di destinazione). Se si è scelto <strong>NO</strong> alla domanda precedente, la clipboard mantiene ancora l'appuntamento disponibile per ulteriori incollii.</p>
+<div class="admonition tip">
+<p class="admonition-title">Spostare un appuntamento</p>
+<p>Per <strong>spostare</strong> (anziché duplicare) un appuntamento: copiarlo in clipboard → incollarlo nella nuova posizione → rispondere <strong>SÌ</strong> alla rimozione dalla clipboard. Il blocco originale può poi essere eliminato manualmente, oppure usare la funzione di spostamento diretto se disponibile.</p>
+</div>
+<hr />
+<h2 id="gestire-la-clipboard-appuntamenti">Gestire la Clipboard Appuntamenti</h2>
+<p>Cliccando sull'icona <strong>Clipboard</strong> nella toolbar del Planning si apre il pannello <strong>Clipboard Appuntamenti</strong>, che mostra tutti gli appuntamenti attualmente in attesa di essere incollati.</p>
+<p><img alt="Clipboard con un appuntamento in attesa" src="../assets/images/copia_incolla_sposta_app/step_05.png" /></p>
+<p>Per ogni appuntamento in clipboard sono disponibili le azioni:</p>
+<table>
+<thead>
+<tr>
+<th>Icona</th>
+<th>Azione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🟩 <strong>+</strong> verde</td>
+<td>Incolla l'appuntamento nello slot selezionato</td>
+</tr>
+<tr>
+<td>✏️</td>
+<td>Modifica i dettagli prima di incollare</td>
+</tr>
+<tr>
+<td>❌</td>
+<td>Rimuove l'appuntamento dalla clipboard</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="clipboard-con-piu-appuntamenti">Clipboard con più appuntamenti</h2>
+<p><img alt="Clipboard con due appuntamenti in attesa" src="../assets/images/copia_incolla_sposta_app/step_06.png" /></p>
+<p>La Clipboard può contenere <strong>più appuntamenti contemporaneamente</strong>. Nell'esempio sono presenti due appuntamenti (Elisa Elive e Gianluca Vitello), ciascuno con i propri dati originali (data/ora di partenza) e i relativi pulsanti di azione.</p>
+<p>Il pulsante rosso 🔴 in basso svuota l'intera clipboard in un colpo solo.</p>
+<div class="admonition info">
+<p class="admonition-title">Utilizzo tipico con più appuntamenti</p>
+<p>Questa funzionalità è utile quando un operatore è assente e si devono redistribuire più appuntamenti ad altri colleghi: copiare tutti gli appuntamenti in clipboard, poi incollarli uno a uno sulle colonne degli operatori disponibili.</p>
+</div>
+<hr />
+<h2 id="riepilogo-operazioni">Riepilogo operazioni</h2>
+<table>
+<thead>
+<tr>
+<th>Operazione</th>
+<th>Come si fa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Copia</strong></td>
+<td>Clic destro sul blocco → Copia in clipboard</td>
+</tr>
+<tr>
+<td><strong>Incolla</strong></td>
+<td>Clic su slot di destinazione → conferma</td>
+</tr>
+<tr>
+<td><strong>Sposta</strong></td>
+<td>Copia → Incolla → SÌ alla rimozione dalla clipboard</td>
+</tr>
+<tr>
+<td><strong>Multi-incolla</strong></td>
+<td>Copia → Incolla → NO alla rimozione → incolla di nuovo altrove</td>
+</tr>
+<tr>
+<td><strong>Gestione clipboard</strong></td>
+<td>Icona Clipboard in toolbar → pannello con tutti gli appuntamenti in attesa</td>
+</tr>
+<tr>
+<td><strong>Svuota clipboard</strong></td>
+<td>Pulsante rosso nel pannello Clipboard</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Documento a cura di Custom S.p.a. — HyperBeauty Training Program — Versione 1.0 — Giugno 2026</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../colorazione_app/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Colorazione Appuntamenti">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Colorazione Appuntamenti
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../progr_app/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Appuntamenti Ricorrenti">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Appuntamenti Ricorrenti
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Custom S.p.A. 2026
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.sections", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
