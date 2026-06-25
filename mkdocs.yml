@@ -69,4 +69,5 @@ nav:
     - Encoder Matricola RT: matricola_encoder.md
   - Appuntamenti:
     - Presa Appuntamento: presa_appuntamento.md
+    - Appuntamenti Chiusi in Agenda: visualizza_app_chiusi.md
    
