@@ -195,7 +195,7 @@ Da questo momento ogni incasso avviato dall'agenda genererà automaticamente uno
 !!! warning "Il percorso corretto per la chiusura Z"
     La chiusura fiscale giornaliera non si esegue dall'anagrafica stampanti. Il percorso corretto è: **Planning → ⚙️ ingranaggio → Azioni → Chiusura fiscale su [nome stampante]**.
 
-    Dopo la chiusura Z i documenti emessi in quella giornata non possono più essere annullati dal gestionale. Eseguire sempre la chiusura Z a fine giornata lavorativa.
+    Eseguire sempre la chiusura Z a fine giornata lavorativa.
 
 ---
 
