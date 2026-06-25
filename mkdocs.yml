@@ -76,6 +76,7 @@ nav:
     - Ricerca Disponibilità: ricerca_disp.md
   - Scontrino:
     - Emissione Primo doc commerciale: primodoc_comm.md
+    - Annullo Documento Commerciale: annullo.md
   - Chiusura Giornaliera:
     - Chiusura Fiscale Giornaliera: chiusura.md
    
